@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>astromind-chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="build/botui.min.css">
+  <link rel="stylesheet" href="build/botui-theme-default.css">
+</head>
+
+<body style="background-color:#25ceb6">
+  <div class="botui-app-container" id="astromind-chatbot">
+    <bot-ui></bot-ui>
+
+    <div class="botui-actions-container">
+      <div>
+        <input id="userInput" placeholder="text " required="required" class="botui-actions-text-input"> <button
+          type="button" class="botui-actions-buttons-button" onclick="humanSendMsg()"><i
+            class="botui-icon botui-action-button-icon fa fa-check"></i>
+          <span>OK</span></button>
+      </div>
+    </div>
+    <div>
+      <textarea id="res" readonly cols="50px" rows="10px" style="background-color:#25ceb6">
+      </textarea>
+
+    </div>
+  </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/vue"></script>
+  <script src="build/botui.js"></script>
+  <script src="startBot.js"></script>
+  <script>
+
+  </script>
+
+</body>
+
+</html>
