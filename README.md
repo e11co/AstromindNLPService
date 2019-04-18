@@ -1,11 +1,12 @@
-### 这是什么?
+### what's this?
 
-Eugene 的 model 输出结果的后续处理响应程序
+This service will process the data output by the nlg model and output the answer.
 
 ### Usage
 
->  Eugene 的model作为服务部署在服务器：`capricorn(119.29.147.99:5001)`
+>  The nlg model service is deployed at: `capricorn`
 
-- `node queryEngine.js` 即可启动服务
-- `http://localhost:8282` 可以访问该服务
+- `npm i` installation dependency
+- `node start.js`  start service
+- `http://localhost:8282` access service
 
